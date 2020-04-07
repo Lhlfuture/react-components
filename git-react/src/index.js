@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ContextText from './components/ContextText'
+import HocComponent from './components/HocComponent';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <ContextText /> */}
+   <HocComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
