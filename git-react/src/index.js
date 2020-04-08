@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import ContextText from './components/ContextText'
 import HocComponent from './components/HocComponent';
+import Composition from './components/Composition';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <ContextText /> */}
-   <HocComponent />
+   {/* <HocComponent /> */}
+   <Composition />
   </React.StrictMode>,
   document.getElementById('root')
 );
